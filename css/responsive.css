@@ -1,0 +1,374 @@
+/* Bremen HTML5 Template */
+
+@media only screen and (max-width: 1360px){
+	.sidebar-header .nav-toggler{
+		opacity:1;	
+	}
+	
+	.page-with-sidebar-nav .page-wrapper{
+		padding-left:0px;
+	}
+	
+	.sidebar-header{
+		left:-290px;	
+	}
+}
+
+@media only screen and (max-width: 1140px){
+	
+	.main-header .nav-outer{
+		padding-right:120px;	
+	}
+	
+	.main-menu .navigation > li{
+		margin:0px 10px;
+	}
+	
+	.blog-news-section{
+		padding-right:0px !important;	
+	}
+	
+	.news-letter .form-column,
+	.news-letter .social-column,
+	.two-col-fluid .content-column,
+	.two-col-fluid .image-column{
+		position:relative;
+		left:0px;
+		top:0px;
+		width:100%;	
+	}
+	
+	.two-col-fluid .image-column{
+		background-image:none !important;	
+	}
+	
+	.news-letter .form-column .inner-box,
+	.news-letter .social-column .inner-box{
+		max-width:none;
+		padding:50px 15px;
+		float:none;
+		width:100%;	
+	}
+	
+	.two-col-fluid .content-column .inner-box{
+		max-width:none;
+		padding:80px 15px;
+		float:none;
+		width:100%;	
+	}
+	
+	.two-col-fluid .image-column .image-box{
+		display:block;
+	}
+	
+	.news-letter .form-label,
+	.news-letter .form-group{
+		display:block;
+		margin:0px 0px 10px;	
+	}
+	
+	.news-letter .form-group input{
+		width:100% !important;
+	}
+	
+	.news-letter .social-icons h2{
+		margin:0px 0px 20px;
+		float:none;	
+	}
+	
+	.news-letter .social-icons ul{
+		float:none;
+		width:100%;	
+	}
+	
+	.blog-update .owl-controls{
+		top:250px;
+	}
+	
+	.blog-update .news-carousel{
+		padding-left:0px;	
+	}
+	
+	.main-footer .footer-upper .site-widget,
+	.main-footer .footer-upper .contact-widget{
+		padding-left:0px;	
+	}
+	
+	.social-icons-two ul li{
+		margin-bottom:10px;	
+	}
+	
+	.sidebar-page-container .content-side{
+		padding-right:15px;	
+	}
+	
+	.sidebar-page-container .sidebar.blog-sidebar{
+		margin-left:0px;	
+	}
+	
+	.portfolio-scroller,
+	.service-style-two{
+		padding:150px 0px;	
+	}
+	
+	.default-two-column{
+		padding:150px 0px 120px;	
+	}
+	
+	.our-features{
+		padding:150px 0px 120px;	
+	}
+	
+}
+
+@media only screen and (min-width: 768px){
+	.main-header .main-menu .navigation > li > ul,
+	.main-header .main-menu .navigation > li > ul > li > ul{
+		display:block !important;
+		visibility:hidden;
+		opacity:0;
+	}
+}
+
+@media only screen and (max-width: 1023px){
+	
+	.page-wrapper{
+		overflow:hidden;	
+	}
+	
+	.main-header .main-box .logo-box {
+		position:relative;
+		left:0px;
+		top:-15px;
+		padding-top:30px;
+		padding-bottom:5px;
+		right:0px;
+		bottom:0px;
+		width:150px;
+		margin:0px;
+		text-align:left;
+	}
+	
+	.main-header .nav-outer .main-menu{
+		display:none;
+	}
+	
+	.main-header .nav-toggler{
+		top:20px;
+		border:none;
+	}
+	
+	.sec-title h2,
+	.featured-item .inner-box h3 .price,
+	.featured-item .inner-box h3{
+		font-size:24px;	
+	}
+	
+	.gallery-single-post .info-column{
+		padding-left:15px;	
+	}
+	
+	.sidebar-page-container .blog-section{
+		padding-right:0px !important;	
+	}
+	
+	.blog-update .owl-controls{
+		position:relative;
+		top:0px;	
+	}
+	
+	.skill-progress,
+	.our-features .feature-inner,
+	.project-detail .project-content{
+		padding-left:0px;	
+	}
+	
+	.footer-style-two .copyright,
+	.footer-style-two .social-icons-two{
+		text-align:center;	
+	}
+	
+	.footer-style-two .footer-logo{
+		margin:5px 0px 15px;	
+	}
+	
+	.year-experiance .number{
+		font-size:70px;	
+	}
+	
+	.main-header .main-box{
+		padding:0px 15px;	
+	}
+	
+}
+
+@media only screen and (max-width: 767px){
+	.main-header{
+		position:relative;
+		margin:0px !important;
+		background:#212121;	
+	}
+	
+	.main-header.header-light{
+		background:none;	
+	}
+	
+	.default-portfolio-item.masonry-item.big-item,
+	.default-portfolio-item.masonry-item.small-item{
+		width:100%;	
+	}
+	
+	.main-header .header-top .top-right ul li,
+	.main-header .header-top .top-left ul li{
+		margin:0px 5px;	
+	}
+	
+	.main-slider .tp-caption{
+		display:none !important;	
+	}
+	
+	.main-slider .tparrows.preview3::after{
+		top:0px;	
+	}
+	
+	.sec-title h2{
+		font-size:24px;	
+	}
+	
+	.featured-style-one .inner-box .lower-content,
+	.featured-style-one .inner-box .lower-content.right-content{
+		padding:20px 0px;	
+	}
+	
+	.service-style-one{
+		padding:80px 0px 50px;	
+	}
+	
+	.service-block .inner-box{
+		text-align:center;	
+	}
+	
+	.service-block .inner-box .icon-box{
+		margin-top:0px;
+		display:inline-block;	
+	}
+	
+	.service-block .inner-box h3::after{
+		left:50%;
+		margin-left:-22px;	
+	}
+	
+	.project-section .carousel-outer{
+		padding:0px 15px;	
+	}
+	
+	.our-features{
+		padding:190px 0px 150px;	
+	}
+	
+	.masonary-section.style-two .filters h2,
+	.portfolio-gallery .filters h2{
+		font-size:24px;	
+	}
+	
+	.sidebar-page-container .content-side .list-view .news-blog .lower-content,
+	.sidebar-page-container .content-side .blog-detail .news-blog .inner-box .lower-content{
+		padding-left:20px;
+		padding-right:20px;	
+	}
+	
+}
+
+@media only screen and (max-width: 599px){
+	
+	
+	.news-letter .social-icons ul li{
+		margin-bottom:10px;
+	}
+	
+	.sidebar-page-container .comments-area .reply-btn{
+		position:relative !important;
+		top:5px !important;
+		right:0px;	
+	}
+	
+	.blog-news-section .post-share-options .pull-right.text-left{
+		float:left !important;
+		padding-top:10px !important;
+		width:100%;
+	}
+	
+	
+	.sidebar-page .comments-area .reply-comment{
+		margin-left:0px;	
+	}
+	
+	.sec-title .desc-text{
+		font-size:15px;	
+	}
+	
+	.main-footer .footer-bottom .pull-left,
+	.main-footer .footer-bottom .pull-right{
+		width:100%;
+		text-align:center;	
+	}
+	
+	.main-footer .footer-bottom{
+		text-align:center;	
+	}
+	
+	.popup-outer .nav-bottom{
+		padding-bottom:10px;	
+	}
+	
+	.popup-outer .nav-bottom .info-nav,
+	.scroll-nav{
+		display:none;	
+	}
+	
+	.popup-outer .nav-bottom .nav-social-links{
+		width:100%;
+		text-align:center;	
+	}
+	
+	.header-style-three .main-box{
+		padding:20px 20px;	
+	}
+	
+	.popup-navigation{
+		border-top-width:100px;	
+	}
+}
+
+@media only screen and (max-width: 499px) {
+	
+	
+	.products-gallery .filter-tabs .filter{
+		display:block;	
+	}
+	
+	.sidebar-page-container .comments-area .reply-comment{
+		margin-left:0px;
+		padding-left:0px;	
+	}
+	
+	.sidebar-page-container .comments-area .comment{
+		padding-left:0px;	
+	}
+	
+	.sidebar-page-container .comments-area .comment-box .author-thumb{
+		position:relative;
+		left:0px;
+		top:0px;
+		margin-bottom:20px;	
+	}
+	
+	.news-blog .inner-box .lower-content{
+		padding-left:20px;
+		padding-right:20px;	
+	}
+	
+	.portfolio-scroller .project-item .inner-box .image-box img{
+		max-width:260px;	
+	}
+}
