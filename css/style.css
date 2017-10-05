@@ -515,7 +515,7 @@ img{
 	position:absolute;
 	text-align:right;
 	right:0px;
-	top:30px;
+	top:50px;
 	padding-left:25px;
 	border-left:1px solid #d30b54;
 	display:block;
@@ -576,7 +576,7 @@ img{
 }
 
 .main-header .main-menu .navbar-collapse{
-	margin-top: 20px;
+	margin-top: 50px;
 	padding:0px;	
 }
 
